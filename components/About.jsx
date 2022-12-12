@@ -1,6 +1,8 @@
 import React from "react";
 import { RoughNotationGroup } from "react-rough-notation";
 import { Highlight } from "./Highlight";
+import profile from "../public/profile.png";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -32,12 +34,24 @@ const About = () => {
               Delridge Neighborhoods Development Association
             </a>
             , to design Salesforce database for donor management and improve
-            reporting analytics. In 2018,
+            reporting analytics. I automated reporting queries and connected
+            external tools that utilize the database using Zapier. And in 2022,
+            I developed a full-stack MERN app that program staff can use to
+            generate and manage program report and track program analytics.
           </p>
-          <p className="py-2">Check out my latest projects here.</p>
+          <p className="py-2">
+            In early 2022, I've decided to further my experience with
+            technology, enrolling at Oregon State University as a Computer
+            Science student. My current studies include algorithmic analysis,
+            database design, machine learning, and operating systems.
+          </p>
+          <p className="py-2">
+            Check out my latest projects on this site by clicking the Projects
+            section on the Nav bar.
+          </p>
         </div>
-        <div>
-          <img src="../public/profile.jpeg" alt="" />
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-500 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
+          <Image className="rounded-xl" src={profile} alt="" />
         </div>
       </div>
     </div>
