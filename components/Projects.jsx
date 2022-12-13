@@ -26,7 +26,7 @@ const Projects = () => {
             title="HashMap Implementation"
             projectDescription="Python, Data Structures, Hashing"
             backgroundImg={hashmapImg}
-            projectUrl="/projects//hashmap"
+            projectUrl="/projects/hashmap"
           />
           <ProjectItem
             title="Personal Portfolio Website"

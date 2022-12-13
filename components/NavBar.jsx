@@ -3,12 +3,12 @@ import Link from "next/link";
 import { MdMenu, MdClose } from "react-icons/md";
 import { FaLinkedinIn, FaGithub, FaEnvelope } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
+import { useRouter } from "next/router";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#ecf0f3");
-  const [linkColor, setLinkColor] = useState("#1f2937");
 
   useEffect(() => {
     const handleShadow = () => {
