@@ -5,6 +5,7 @@ import restlessCryptImg from "../public/assets/projects/restless-crypt.png";
 import hashmapImg from "../public/assets/projects/hashmap-sc.png";
 import reportSageImg from "../public/assets/projects/reportSage.png";
 import youTrainImg from "../public/assets/projects/youTrain.png";
+import personalPortfolioImg from "../public/assets/projects/personal-portfolio.png";
 
 const Projects = () => {
   return (
@@ -14,17 +15,24 @@ const Projects = () => {
           Projects
         </h3>
         <div className="grid md:grid-cols-2 gap-8">
+          {/* possible refactoring in the future */}
           <ProjectItem
             title="ReportSage"
             projectDescription="MongoDB, Express, React, Node, User Authentication"
             backgroundImg={reportSageImg}
-            projectUrl="/reportsage"
+            projectUrl="/projects/reportsage"
           />
           <ProjectItem
             title="HashMap Implementation"
             projectDescription="Python, Data Structures, Hashing"
             backgroundImg={hashmapImg}
-            projectUrl="/hashmap"
+            projectUrl="/projects//hashmap"
+          />
+          <ProjectItem
+            title="Personal Portfolio Website"
+            projectDescription="NextJS, React"
+            backgroundImg={personalPortfolioImg}
+            projectUrl="/"
           />
           <ProjectItem
             title="Restless Crypt"
@@ -36,7 +44,7 @@ const Projects = () => {
             title="YouTrain"
             projectDescription="MongoDB, Express, React, Node"
             backgroundImg={youTrainImg}
-            projectUrl="/youTrain"
+            projectUrl="/youtrain"
           />
         </div>
       </div>

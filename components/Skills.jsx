@@ -16,7 +16,7 @@ import tailwindcss from "../public/assets/skills/tailwindcss.png";
 
 const Skills = () => {
   return (
-    <div>
+    <div className="">
       <h3 className="uppercase text-xl tracking-widest text-[#808000]">
         Tech I've worked with
       </h3>
