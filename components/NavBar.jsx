@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { MdMenu, MdClose } from "react-icons/md";
 import { FaLinkedinIn, FaGithub, FaEnvelope } from "react-icons/fa";
@@ -6,13 +6,35 @@ import { BsPersonLinesFill } from "react-icons/bs";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
+  const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [linkColor, setLinkColor] = useState("#1f2937");
+
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY > 90) {
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleShadow);
+  }, []);
 
   const handleNav = () => {
     setNav(!nav);
   };
 
   return (
-    <div className="fixed w-full h-30 shadow-xl z-[100]">
+    <div
+      style={{ backgroundColor: `${navBg}` }}
+      className={
+        shadow
+          ? "fixed w-full h-30 shadow-xl z-[100]"
+          : "fixed w-full h-30 z-[100]"
+      }
+    >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <div className="ml-10 mt-5 mb-5">
           <Link href="/">
@@ -25,15 +47,15 @@ const NavBar = () => {
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/">
+            <Link href="/#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/">
+            <Link href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact">
               <li className="ml-10 mr-10 text-sm uppercase hover:border-b">
                 Contact
               </li>

@@ -5,10 +5,8 @@ import { FaLinkedinIn, FaGithub, FaEnvelope } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
 
 const Hero = () => {
-  const colors = ["#FFFF00"];
-
   return (
-    <div className="w-full h-screen text-center">
+    <div className="w-full h-screen text-center" id="home">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <h1 className="py-4 text-gray-700">

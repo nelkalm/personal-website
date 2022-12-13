@@ -8,7 +8,7 @@ import youTrainImg from "../public/assets/projects/youTrain.png";
 
 const Projects = () => {
   return (
-    <div className="w-full">
+    <div className="w-full" id="projects">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <h3 className="uppercase text-xl tracking-widest text-[#808000]">
           Projects
