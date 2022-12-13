@@ -1,17 +1,19 @@
 import React from "react";
 import { RoughNotationGroup } from "react-rough-notation";
 import { Highlight } from "./Highlight";
-import profile from "../public/profile.png";
 import Image from "next/image";
+import Skills from "./Skills";
+
+import profile from "../public/profile.png";
 
 const About = () => {
   return (
     <div className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-[#808000]">
+          <h3 className="uppercase text-xl tracking-widest text-[#808000]">
             About Me
-          </p>
+          </h3>
           <h2 className="py-4 text-gray-700">
             Hi, I'm{" "}
             <RoughNotationGroup show={true}>
@@ -52,6 +54,9 @@ const About = () => {
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-500 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-300">
           <Image className="rounded-xl" src={profile} alt="" />
+        </div>
+        <div className="col-span-3 pt-10">
+          <Skills />
         </div>
       </div>
     </div>
