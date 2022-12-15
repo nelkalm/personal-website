@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <h1 className="py-4 text-gray-700">
-            Hi, I'm{" "}
+            Hi, I&#39;m{" "}
             <RoughNotationGroup show={true}>
               {" "}
               <Highlight color="#FFFF00">
@@ -28,6 +28,7 @@ const Hero = () => {
             <a
               href="http://directory.oregonstate.edu/?type=showfull&osuuid=40535193656"
               target="_blank"
+              rel="noreferrer"
             >
               Oregon State University
             </a>
@@ -39,6 +40,7 @@ const Hero = () => {
             <a
               href="https://github.com/nelkalm/personal-website"
               target="_blank"
+              rel="noreferrer"
             >
               here
             </a>
@@ -49,12 +51,14 @@ const Hero = () => {
               <a
                 href="https://www.linkedin.com/in/nelson-lu-075a6b53/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaLinkedinIn />
               </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
               <a href="https://github.com/nelkalm" target="_blank">
+                rel="noreferrer"
                 <FaGithub />
               </a>
             </div>
@@ -67,6 +71,7 @@ const Hero = () => {
               <a
                 href="https://drive.google.com/file/d/1HAxIlnjiO5uU0_9Q8UVN6t99yfrwVIhr/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <BsPersonLinesFill />
               </a>

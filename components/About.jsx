@@ -15,7 +15,7 @@ const About = () => {
             About Me
           </h3>
           <h2 className="py-4 text-gray-700">
-            Hi, I'm{" "}
+            Hi, I&#39;m{" "}
             <RoughNotationGroup show={true}>
               {" "}
               <Highlight color="#FFFF00">
@@ -42,7 +42,7 @@ const About = () => {
             generate and manage program report and track program analytics.
           </p>
           <p className="py-2">
-            In early 2022, I've decided to further my experience with
+            In early 2022, I&#39;ve decided to further my experience with
             technology, enrolling at Oregon State University as a Computer
             Science student. My current studies include algorithmic analysis,
             database design, machine learning, and operating systems.

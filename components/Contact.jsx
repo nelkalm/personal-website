@@ -26,7 +26,7 @@ const Contact = () => {
               <div>
                 <h2 className="py-2">Nelson Lu</h2>
                 <p className="py-4">
-                  I'm looking for internship opportunities while I finish my
+                  I&#39;m looking for internship opportunities while I finish my
                   degree in CS.
                 </p>
               </div>
@@ -37,12 +37,17 @@ const Contact = () => {
                     <a
                       href="https://www.linkedin.com/in/nelson-lu-075a6b53/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <FaLinkedinIn />
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
-                    <a href="https://github.com/nelkalm" target="_blank">
+                    <a
+                      href="https://github.com/nelkalm"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <FaGithub />
                     </a>
                   </div>
@@ -55,6 +60,7 @@ const Contact = () => {
                     <a
                       href="https://drive.google.com/file/d/1HAxIlnjiO5uU0_9Q8UVN6t99yfrwVIhr/view?usp=sharing"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <BsPersonLinesFill />
                     </a>

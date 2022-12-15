@@ -18,7 +18,7 @@ const Skills = () => {
   return (
     <div className="">
       <h3 className="uppercase text-xl tracking-widest text-[#808000]">
-        Tech I've worked with
+        Tech I&#39;ve worked with
       </h3>
       <div className="flex flex-wrap space-x-4">
         <div className="mx-4 my-4">

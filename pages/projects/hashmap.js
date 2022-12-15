@@ -25,14 +25,14 @@ const HashMap = () => {
         <div className="col-span-4">
           <h2>Overview</h2>
           <p className="pt-5">
-            This is a portfolio project for OSU's course in Data Structures. Two
-            different HashMaps were implemented with two collision resolution
-            methods: separate chaining and open addressing. For the HashMap
-            using separate chaining for collision resolution, a dynamic array
-            was used to store the hash table, and singly linked lists were used
-            to implement chaining. For the HashMap using open addressing with
-            quadratic probing for collision resolution, a dynamic array was used
-            to store the hash table.
+            This is a portfolio project for OSU&#39;s course in Data Structures.
+            Two different HashMaps were implemented with two collision
+            resolution methods: separate chaining and open addressing. For the
+            HashMap using separate chaining for collision resolution, a dynamic
+            array was used to store the hash table, and singly linked lists were
+            used to implement chaining. For the HashMap using open addressing
+            with quadratic probing for collision resolution, a dynamic array was
+            used to store the hash table.
           </p>
           <a
             href="https://github.com/nelkalm/hashmap"

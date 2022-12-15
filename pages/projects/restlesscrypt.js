@@ -28,7 +28,7 @@ const RestlessCrypt = () => {
           <h2>Overview</h2>
           <p className="pt-5">
             Restless Crypt is an implementation of a dungeon crawler game using
-            the Pygame module. It's a game where the main character, a Fire
+            the Pygame module. It&#39;s a game where the main character, a Fire
             Fairy, must escape a 4-level restless dungeon with enemies. The
             Fairy must fight a boss at the last level to escape the dungeon.
           </p>
