@@ -24,18 +24,44 @@ const Hero = () => {
             data analysis and database management. I am currently developing a
             program reporting app and improving team workflows to improve human
             interaction experience for teams. I am also a current Computer
-            Science student at Oregon State University. I am obsessed with AI
-            generated stuffs.{" "}
+            Science student at{" "}
+            <a
+              href="http://directory.oregonstate.edu/?type=showfull&osuuid=40535193656"
+              target="_blank"
+            >
+              Oregon State University
+            </a>
+            . I am obsessed with AI generated stuffs.{" "}
+          </p>
+          <p className="py-4 text-gray-700 max-w-[70%] m-auto">
+            Welcome to my personal website, made with React, NextJS, and
+            TailwindCSS. Code available{" "}
+            <a
+              href="https://github.com/nelkalm/personal-website"
+              target="_blank"
+            >
+              here
+            </a>
+            .
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
-              <FaLinkedinIn />
+              <a
+                href="https://www.linkedin.com/in/nelson-lu-075a6b53/"
+                target="_blank"
+              >
+                <FaLinkedinIn />
+              </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
-              <FaGithub />
+              <a href="https://github.com/nelkalm" target="_blank">
+                <FaGithub />
+              </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
-              <FaEnvelope />
+              <a href="mailto:nelkalmlu@gmail.com">
+                <FaEnvelope />
+              </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
               <BsPersonLinesFill />

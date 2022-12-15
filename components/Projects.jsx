@@ -5,7 +5,6 @@ import restlessCryptImg from "../public/assets/projects/restless-crypt.png";
 import hashmapImg from "../public/assets/projects/hashmap-sc.png";
 import reportSageImg from "../public/assets/projects/reportSage.png";
 import youTrainImg from "../public/assets/projects/youTrain.png";
-import personalPortfolioImg from "../public/assets/projects/personal-portfolio.png";
 
 const Projects = () => {
   return (
@@ -27,12 +26,6 @@ const Projects = () => {
             projectDescription="Python, Data Structures, Hashing"
             backgroundImg={hashmapImg}
             projectUrl="/projects/hashmap"
-          />
-          <ProjectItem
-            title="Personal Portfolio Website"
-            projectDescription="NextJS, React"
-            backgroundImg={personalPortfolioImg}
-            projectUrl="/"
           />
           <ProjectItem
             title="Restless Crypt"
