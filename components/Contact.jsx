@@ -29,6 +29,18 @@ const Contact = () => {
                   I&#39;m looking for internship opportunities while I finish my
                   degree in CS.
                 </p>
+                <p className="py-4">
+                  I made this site with React, NextJS, and TailwindCSS. Code
+                  available{" "}
+                  <a
+                    href="https://github.com/nelkalm/personal-website"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    here
+                  </a>
+                  .
+                </p>
               </div>
               <div>
                 <h3 className="uppercase pt-8">Connect With Me</h3>
