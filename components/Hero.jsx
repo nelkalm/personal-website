@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="w-full h-screen text-center" id="home">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <h1 className="py-4 text-gray-700">
+          <h1 className="mt-10 py-4 text-gray-700">
             Hi, I&#39;m{" "}
             <RoughNotationGroup show={true}>
               {" "}
