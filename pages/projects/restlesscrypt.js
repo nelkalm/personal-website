@@ -4,11 +4,11 @@ import Link from "next/link";
 import restlessCryptImg from "../../public/assets/projects/restless-crypt.png";
 import { RxTriangleRight } from "react-icons/rx";
 
-const HashMap = () => {
+const RestlessCrypt = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[40vh] lg:h-[60vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[40vh] lg:h-[60vh] bg-black/80 z-10" />
+        <div className="absolute top-0 left-0 w-full h-[40vh] lg:h-[60vh] bg-black/60 z-10" />
         <Image
           className="absolute z-1"
           layout="fill"
@@ -79,4 +79,4 @@ const HashMap = () => {
   );
 };
 
-export default HashMap;
+export default RestlessCrypt;

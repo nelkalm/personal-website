@@ -37,7 +37,7 @@ const Projects = () => {
             title="YouTrain"
             projectDescription="MongoDB, Express, React, Node"
             backgroundImg={youTrainImg}
-            projectUrl="/youtrain"
+            projectUrl="/projects/youtrain"
           />
         </div>
       </div>

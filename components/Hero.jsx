@@ -64,7 +64,12 @@ const Hero = () => {
               </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
-              <BsPersonLinesFill />
+              <a
+                href="https://drive.google.com/file/d/1HAxIlnjiO5uU0_9Q8UVN6t99yfrwVIhr/view?usp=sharing"
+                target="_blank"
+              >
+                <BsPersonLinesFill />
+              </a>
             </div>
           </div>
         </div>

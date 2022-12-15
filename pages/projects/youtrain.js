@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import hashMapImg from "../../public/assets/projects/hashmap-sc.png";
+import youTrainImg from "../../public/assets/projects/youTrain.png";
 import { RxTriangleRight } from "react-icons/rx";
 
-const HashMap = () => {
+const YouTrain = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[40vh] lg:h-[60vh] relative">
@@ -13,29 +13,34 @@ const HashMap = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={hashMapImg}
+          src={youTrainImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-10 ">
-          <h2 className="py-2">HashMap Implementation</h2>
-          <h3>Python, Data Structures, Hashing</h3>
+          <h2 className="py-2">YouTrain</h2>
+          <h3>MongoDB, Express, React, Node</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-8">
         <div className="col-span-4">
           <h2>Overview</h2>
           <p className="pt-5">
-            This is a portfolio project for OSU's course in Data Structures. Two
-            different HashMaps were implemented with two collision resolution
-            methods: separate chaining and open addressing. For the HashMap
-            using separate chaining for collision resolution, a dynamic array
-            was used to store the hash table, and singly linked lists were used
-            to implement chaining. For the HashMap using open addressing with
-            quadratic probing for collision resolution, a dynamic array was used
-            to store the hash table.
+            YouTrain is a full-stack MERN App, a Single Page Application that
+            tracks exercises completed by the user. User can create their
+            exercise data by inputting using a form, with data fields including
+            the name of the exercise performed, the number of reps, the amount
+            of weight, the weight unit, and the date the exercise was performed.
+            The exercise data is then populated onto a table on the Home page.
+            User can then click on the pencil icon to edit the exercise, or
+            click on the trash icon to delete the exercise.
+          </p>
+          <p className="pt-5">
+            The frontend was built with Node and React, and global design
+            features. The backend was built with MongoDB persistence, Mongoose,
+            Express, REST, and Node.
           </p>
           <a
-            href="https://github.com/nelkalm/hashmap"
+            href="https://github.com/nelkalm/ExercisesApp"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,16 +55,22 @@ const HashMap = () => {
           </div>
           <div className="grid grid-cols-3 md:grid-cols-1">
             <p className="text-gray-600 py-2 flex items-center">
-              <RxTriangleRight className="pr-1" /> Python
+              <RxTriangleRight className="pr-1" /> React
             </p>
             <p className="text-gray-600 py-2 flex items-center">
-              <RxTriangleRight className="pr-1" /> Data Structures
+              <RxTriangleRight className="pr-1" /> MongoDB
             </p>
             <p className="text-gray-600 py-2 flex items-center">
-              <RxTriangleRight className="pr-1" /> Hashing
+              <RxTriangleRight className="pr-1" /> Express
             </p>
             <p className="text-gray-600 py-2 flex items-center">
-              <RxTriangleRight className="pr-1" /> Unit Testing
+              <RxTriangleRight className="pr-1" /> Node
+            </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RxTriangleRight className="pr-1" /> Rest API
+            </p>
+            <p className="text-gray-600 py-2 flex items-center">
+              <RxTriangleRight className="pr-1" /> Javascript
             </p>
           </div>
         </div>
@@ -71,4 +82,4 @@ const HashMap = () => {
   );
 };
 
-export default HashMap;
+export default YouTrain;

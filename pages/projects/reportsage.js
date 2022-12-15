@@ -8,7 +8,7 @@ const ReportSage = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[40vh] lg:h-[60vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[40vh] lg:h-[60vh] bg-black/80 z-10" />
+        <div className="absolute top-0 left-0 w-full h-[40vh] lg:h-[60vh] bg-black/60 z-10" />
         <Image
           className="absolute z-1"
           layout="fill"
@@ -46,7 +46,7 @@ const ReportSage = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4">Code</button>
+            <button className="px-8 py-2 mt-4 ml-5">Code</button>
           </a>
         </div>
         <div className="col-span-6 md:col-span-2 shadow-xl shadow-gray-400 rounded-xl p-4">

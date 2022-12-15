@@ -34,16 +34,30 @@ const Contact = () => {
                 <h3 className="uppercase pt-8">Connect With Me</h3>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
-                    <FaLinkedinIn />
+                    <a
+                      href="https://www.linkedin.com/in/nelson-lu-075a6b53/"
+                      target="_blank"
+                    >
+                      <FaLinkedinIn />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
-                    <FaGithub />
+                    <a href="https://github.com/nelkalm" target="_blank">
+                      <FaGithub />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
-                    <FaEnvelope />
+                    <a href="mailto:nelkalmlu@gmail.com">
+                      <FaEnvelope />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
-                    <BsPersonLinesFill />
+                    <a
+                      href="https://drive.google.com/file/d/1HAxIlnjiO5uU0_9Q8UVN6t99yfrwVIhr/view?usp=sharing"
+                      target="_blank"
+                    >
+                      <BsPersonLinesFill />
+                    </a>
                   </div>
                 </div>
               </div>
