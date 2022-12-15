@@ -57,8 +57,11 @@ const Hero = () => {
               </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
-              <a href="https://github.com/nelkalm" target="_blank">
+              <a
+                href="https://github.com/nelkalm"
+                target="_blank"
                 rel="noreferrer"
+              >
                 <FaGithub />
               </a>
             </div>
