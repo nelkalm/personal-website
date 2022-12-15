@@ -26,38 +26,38 @@ const Hero = () => {
             interaction experience for teams.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
-              <a
-                href="https://www.linkedin.com/in/nelson-lu-075a6b53/"
-                target="_blank"
-                rel="noreferrer"
-              >
+            <a
+              href="https://www.linkedin.com/in/nelson-lu-075a6b53/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
                 <FaLinkedinIn />
-              </a>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
-              <a
-                href="https://github.com/nelkalm"
-                target="_blank"
-                rel="noreferrer"
-              >
+              </div>
+            </a>
+            <a
+              href="https://github.com/nelkalm"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
                 <FaGithub />
-              </a>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
-              <a href="mailto:nelkalmlu@gmail.com">
+              </div>
+            </a>
+            <a href="mailto:nelkalmlu@gmail.com">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
                 <FaEnvelope />
-              </a>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
-              <a
-                href="https://drive.google.com/file/d/1HAxIlnjiO5uU0_9Q8UVN6t99yfrwVIhr/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
+              </div>
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1HAxIlnjiO5uU0_9Q8UVN6t99yfrwVIhr/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-120 ease-in duration-300">
                 <BsPersonLinesFill />
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
