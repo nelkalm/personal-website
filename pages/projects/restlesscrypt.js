@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import reportSageImg from "../../public/assets/projects/reportSage.png";
+import restlessCryptImg from "../../public/assets/projects/restless-crypt.png";
 import { RxTriangleRight } from "react-icons/rx";
 
-const ReportSage = () => {
+const HashMap = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[40vh] lg:h-[60vh] relative">
@@ -13,36 +13,37 @@ const ReportSage = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={reportSageImg}
+          src={restlessCryptImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-10 ">
-          <h2 className="py-2">ReportSage</h2>
-          <h3>MongoDB, Express, React, Node, User Authentication</h3>
+          <h2 className="py-2">Restless Crypt</h2>
+          <h3>
+            Python, Pygame, Graphical User Interace, Object-Oriented Programming
+          </h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-6 gap-8 pt-8">
         <div className="col-span-4">
           <h2>Overview</h2>
           <p className="pt-5">
-            This is a reporting app where nonprofit program staff can register
-            for an account to create and manage program and event reports.
-            Development staff can then use report information to generate
-            program statistics and communicate to funders. Features include:
-            mobile responsiveness, user login/logout and authentication, form
-            submission and routing, data aggregation, and dashboard analytics.
-            This app is currently being used by Delridge Neighborhoods
-            Development Association.
+            Restless Crypt is an implementation of a dungeon crawler game using
+            the Pygame module. It's a game where the main character, a Fire
+            Fairy, must escape a 4-level restless dungeon with enemies. The
+            Fairy must fight a boss at the last level to escape the dungeon.
+          </p>
+          <p className="pt-5">
+            This project is a fleshed-out version of a simple shell-based game
+            introduced in my first CS courses. Originally, the project scope did
+            not involve Pygame; it was just a command-line user interaction with
+            one main character and two enemies to demonstrate my understanding
+            of object-oriented programming concepts. I took this project a step
+            further by creating more enemies and items, including level files,
+            implementing a GUI with event-based user-interaction, including
+            sound and sound effects.
           </p>
           <a
-            href="https://reportsage.onrender.com/landing"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="px-8 py-2 mt-4">Demo</button>
-          </a>
-          <a
-            href="https://github.com/nelkalm/ReportSageApp"
+            href="https://github.com/nelkalm/restless_crypt"
             target="_blank"
             rel="noreferrer"
           >
@@ -57,22 +58,16 @@ const ReportSage = () => {
           </div>
           <div className="grid grid-cols-3 md:grid-cols-1">
             <p className="text-gray-600 py-2 flex items-center">
-              <RxTriangleRight className="pr-1" /> React
+              <RxTriangleRight className="pr-1" /> Python
             </p>
             <p className="text-gray-600 py-2 flex items-center">
-              <RxTriangleRight className="pr-1" /> MongoDB
+              <RxTriangleRight className="pr-1" /> Pygame
             </p>
             <p className="text-gray-600 py-2 flex items-center">
-              <RxTriangleRight className="pr-1" /> Express
+              <RxTriangleRight className="pr-1" /> GUI
             </p>
             <p className="text-gray-600 py-2 flex items-center">
-              <RxTriangleRight className="pr-1" /> Node
-            </p>
-            <p className="text-gray-600 py-2 flex items-center">
-              <RxTriangleRight className="pr-1" /> Rest API
-            </p>
-            <p className="text-gray-600 py-2 flex items-center">
-              <RxTriangleRight className="pr-1" /> Javascript
+              <RxTriangleRight className="pr-1" /> Object-Oriented Programming
             </p>
           </div>
         </div>
@@ -84,4 +79,4 @@ const ReportSage = () => {
   );
 };
 
-export default ReportSage;
+export default HashMap;

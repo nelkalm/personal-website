@@ -38,7 +38,7 @@ const Projects = () => {
             title="Restless Crypt"
             projectDescription="Python, Pygame, Graphical User Interace, Object-Oriented Programming"
             backgroundImg={restlessCryptImg}
-            projectUrl="/restless-crypt"
+            projectUrl="/projects/restlesscrypt"
           />
           <ProjectItem
             title="YouTrain"
