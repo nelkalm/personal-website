@@ -24,11 +24,12 @@ const About = () => {
             </RoughNotationGroup>
           </h2>
           <p className="py-2">
-            I have spent the last 6 years in the public sector collaborating and
-            managing diverse stakeholders to develop programs and budget related
-            to the environment, community economic development, and housing
-            policies. I have always been fascinated with technology and
-            leveraging the power of tech to improve workflow and productivity.{" "}
+            I'm from Seattle, WA, and I have spent the last 6 years in the
+            public sector collaborating and managing diverse stakeholders to
+            develop programs and budget related to the environment, community
+            economic development, and housing policies. I have always been
+            fascinated with technology and leveraging the power of tech to
+            improve workflow and productivity.{" "}
           </p>
           <p className="py-2">
             Since 2016, I have worked with a nonprofit group,{" "}
