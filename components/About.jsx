@@ -24,7 +24,7 @@ const About = () => {
             </RoughNotationGroup>
           </h2>
           <p className="py-2">
-            I'm from Seattle, WA, and I have spent the last 6 years in the
+            I&#39;m from Seattle, WA, and I have spent the last 6 years in the
             public sector collaborating and managing diverse stakeholders to
             develop programs and budget related to the environment, community
             economic development, and housing policies. I have always been

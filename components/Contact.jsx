@@ -27,7 +27,7 @@ const Contact = () => {
                 <h2 className="py-2">Nelson Lu</h2>
                 <p className="py-4">
                   I&#39;m looking for internship opportunities while I finish my
-                  degree in CS. I'm based in Seattle, WA.
+                  degree in CS. I&#39;m based in Seattle, WA.
                 </p>
                 <p className="py-4">
                   I made this site with React, NextJS, and TailwindCSS. Code
